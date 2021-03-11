@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import PortfolioPage from "./pages/PortfolioPage";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home/Home.js";
+import About from "./pages/About/About.js";
+import PortfolioPage from "./pages/PortfolioPage/PortfolioPage.js";
+import Contact from "./pages/Contact/Contact.js";
 
 class Portfolio extends Component {
   state = {
@@ -27,6 +27,7 @@ class Portfolio extends Component {
   };
 
   render() {
+
     return (
       <div>
         <Nav

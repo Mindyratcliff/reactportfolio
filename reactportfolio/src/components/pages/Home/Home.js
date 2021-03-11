@@ -1,10 +1,11 @@
 import React from "react";
+import "./home.css";
 
 const Home = () => (
 
   <div>
-   <h1 style={{color: "black",fontFamily: "serif" }}>Hi. I'm Mindy.</h1>
-   <h2 style={{color: "purple", fontFamily: "sans-serif"}}>full-stack web developer.</h2>
+   <h1>Hi. I'm Mindy.</h1>
+   <h2>full-stack web developer.</h2>
   </div>
 );
 

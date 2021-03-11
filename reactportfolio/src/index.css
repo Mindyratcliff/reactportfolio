@@ -1,6 +1,12 @@
-
-
+html {
+  overflow: hidden;
+}
+#background {
+  width: 100vw;
+  height: 100vh;
+}
 body {
+  overflow:hidden;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
