@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "./Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import PortfolioPage from "./pages/PortfolioPage";
 import Contact from "./pages/Contact";
 
 class Portfolio extends Component {
@@ -18,6 +19,8 @@ class Portfolio extends Component {
       return <Home />;
     } else if (this.state.currentPage === "About") {
       return <About />;
+    } else if (this.state.currentPage === "Portfolio Page"){
+        return <PortfolioPage />;
     } else {
       return <Contact />;
     }

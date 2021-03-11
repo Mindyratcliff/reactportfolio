@@ -15,6 +15,15 @@ function Nav(props) {
       <li className="nav-item">
         <a
           href="#about"
+          onClick={() => props.handlePageChange("Portfolio Page")}
+          className={props.currentPage === "Portfolio Page" ? "nav-link active" : "nav-link"}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#about"
           onClick={() => props.handlePageChange("About")}
           className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
         >
