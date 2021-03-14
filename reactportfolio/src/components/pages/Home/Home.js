@@ -6,9 +6,8 @@ import Nav from "../../Nav"
 
 const Home = () => {
   return(
-  <div>
-   <h1>Hi. I'm Mindy.</h1>
-   <h2>full-stack web developer.</h2>
+  <div id="landing">
+   <img src="../../../assets/Mindy Ratcliff-3.png" id="hero" alt="sun with the words Hi I'm Mindy"/>
    
   </div>
   )};

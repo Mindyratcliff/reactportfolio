@@ -7,3 +7,15 @@ h2 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+#landing {
+    background-color: #d8feff;
+}
+
+#hero {
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
