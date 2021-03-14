@@ -2,8 +2,8 @@ import React from "react";
 
 function SocialCard() {
   return (
-    <div class="col-3">
-      <div class="card">
+    <div class="col">
+      <div class="card" style={{margin: 50}}>
         <div class="card-body">
           <h5 class="card-title">Mindy Ratcliff</h5>
           <h6 class="card-subtitle">Find me on Social Media</h6>
