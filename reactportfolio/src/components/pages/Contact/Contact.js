@@ -5,7 +5,6 @@ import "./contact.css";
 
 const Contact = () => (
   <div>
-    <Nav />
     <h1>Contact Me</h1>
     <SocialCard/>
    

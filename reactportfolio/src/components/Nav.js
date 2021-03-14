@@ -1,43 +1,49 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav(props) {
+  const location = useLocation();
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/"
+          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
           Home
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("Portfolio Page")}
-          className={props.currentPage === "Portfolio Page" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/PortfolioPage"
+          className={
+            location.pathname === "/PortfolioPage"
+              ? "nav-link active"
+              : "nav-link"
+          }
         >
-          Portfolio
-        </a>
+          Portolio Page
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/About"
+          className={
+            location.pathname === "/about" ? "nav-link active" : "nav-link"
+          }
         >
           About
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        <Link
+          to="/Contact"
+          className={
+            location.pathname === "/Contact" ? "nav-link active" : "nav-link"
+          }
         >
           Contact Me
-        </a>
+        </Link>
       </li>
     </ul>
   );
