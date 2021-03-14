@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Nav from "../../Nav";
+
 
 const About = () => (
   <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import SocialCard from "../../SocialCard"
-import Nav from "../../Nav";
 import "./contact.css";
 
 const Contact = () => (

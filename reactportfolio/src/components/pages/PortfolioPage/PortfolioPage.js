@@ -1,10 +1,16 @@
 import React from "react";
 import "./portfoliopage.css";
-import Nav from "../../Nav";
+
 
 const PortfolioPage = () => (
-  <div>
+  <div class="container">
     <h1>Portfolio</h1>
+    <div class="row">
+      <p>
+        Download a copy of my resume
+        <a href="../../../assets/MRatcliffResume.pdf"> here.</a>
+      </p>
+    </div>
     <div class="row">
       <h3>Happy Trees</h3>
       <img src="" alt="" />

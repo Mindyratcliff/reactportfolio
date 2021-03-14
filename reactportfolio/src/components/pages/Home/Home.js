@@ -8,7 +8,7 @@ const Home = () => {
   return(
   <div id="landing">
    <img src="../../../assets/Mindy Ratcliff-3.png" id="hero" alt="sun with the words Hi I'm Mindy"/>
-   
+   <h2>full-stack web developer</h2>
   </div>
   )};
 
