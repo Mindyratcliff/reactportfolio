@@ -27,6 +27,9 @@ function App() {
           <Route exact path={["/PortfolioPage", "/PortfolioPage"]}>
             <PortfolioPage />
           </Route>
+          <Route>
+              <NoMatch/>
+          </Route>
         </Switch>
       </div>
     </Router>
