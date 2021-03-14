@@ -1,8 +1,10 @@
 import React from "react";
 import "./portfoliopage.css";
+import Nav from "../../Nav";
 
 const PortfolioPage = () => (
   <div>
+    <Nav/>
     <h1>Portfolio</h1>
     <div class="row">
       <h3>Happy Trees</h3>

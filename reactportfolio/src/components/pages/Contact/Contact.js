@@ -1,9 +1,11 @@
 import React from "react";
-import SocialCard from "./SocialCard"
+import SocialCard from "../../SocialCard"
+import Nav from "../../Nav";
 import "./contact.css";
 
 const Contact = () => (
   <div>
+    <Nav />
     <h1>Contact Me</h1>
     <SocialCard/>
    

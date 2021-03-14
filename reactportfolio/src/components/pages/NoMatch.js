@@ -3,7 +3,7 @@ import React from "react";
 
 function NoMatch() {
   return (
-    <Container fluid>
+    <div>
     
             <h1>Oh no! You made a wrong turn!</h1>
             <h1>
@@ -12,7 +12,7 @@ function NoMatch() {
              
             </h1>
         
-    </Container>
+    </div>
   );
 }
 

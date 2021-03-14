@@ -1,10 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/pages/Home";
-import About from "./components/pages/Detail";
-import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Home from "./components/pages/Home/Home";
+import About from "./components/pages/About/About";
+import NoMatch from "./components/pages/NoMatch";
 import Contact from "./components/pages/Contact/Contact";
 import PortfolioPage from "./components/pages/PortfolioPage/PortfolioPage";
 
@@ -12,8 +10,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
-        <PortfolioContainer />
         <Switch>
           <Route exact path={["/", "/home"]}>
             <Home />
