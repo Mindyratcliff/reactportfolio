@@ -22,6 +22,9 @@ function App() {
           <Route exact path={["/", "/home"]}>
             <Home home={home}/>
           </Route>
+          <Route exact path={["/reactportfolio", "/reactportfolio"]}>
+            <Home home={home}/>
+          </Route>
           <Route exact path={["/About", "/About"]}>
             <About />
           </Route>
