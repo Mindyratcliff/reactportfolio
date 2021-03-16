@@ -9,6 +9,7 @@ function Nav(props) {
         <Link
           to="/"
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+          style={{color: "#8c52ff"}}
         >
           Home
         </Link>
@@ -21,6 +22,7 @@ function Nav(props) {
               ? "nav-link active"
               : "nav-link"
           }
+          style={{color: "#8c52ff"}}
         >
           Portolio Page
         </Link>
@@ -31,6 +33,7 @@ function Nav(props) {
           className={
             location.pathname === "/about" ? "nav-link active" : "nav-link"
           }
+          style={{color: "#8c52ff"}}
         >
           About
         </Link>
@@ -41,6 +44,7 @@ function Nav(props) {
           className={
             location.pathname === "/Contact" ? "nav-link active" : "nav-link"
           }
+          style={{color: "#8c52ff"}}
         >
           Contact Me
         </Link>

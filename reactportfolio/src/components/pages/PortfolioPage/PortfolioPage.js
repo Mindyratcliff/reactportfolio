@@ -5,11 +5,11 @@ import "./portfoliopage.css";
 const PortfolioPage = () => (
   
   <div class="container">
-    <h1>Portfolio</h1>
+    <h1 style={{color: "#8c52ff"}}>Portfolio</h1>
     <div class="row">
       <p>
         Download a copy of my resume
-        <a href="../../../assets/MRatcliffResume.pdf"> here.</a>
+        <a href="../../../assets/MRatcliffResume.pdf" style={{color: "#8c52ff"}}> here.</a>
       </p>
     </div>
     <ProjectComponent/>
