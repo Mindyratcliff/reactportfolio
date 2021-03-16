@@ -9,7 +9,7 @@ const PortfolioPage = () => (
     <div class="row">
       <p>
         Download a copy of my resume
-        <a href="{`${process.env.PUBLIC_URL}/build/assets/MRatcliffResume.pdf`}" style={{color: "#8c52ff"}}> here.</a>
+        <a href="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/21f331215c99156f4c9b330c3d4427152676c6ff/build/assets/MRatcliffResume.pdf" style={{color: "#8c52ff"}}> here.</a>
       </p>
     </div>
     <ProjectComponent/>

@@ -10,7 +10,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="{`${process.env.PUBLIC_URL}/assets/dashboard-screenshot copy.png`}"
+          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/dashboard-screenshot%20copy.png"
           alt="Happy Trees dashboard"
         />
       </div>
@@ -45,7 +45,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="{`${process.env.PUBLIC_URL}/assets/coronadatescreenshot.jpg`}"
+          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/coronadatescreenshot.jpg"
           alt="CoronaDate Screen shot"
         />
       </div>
@@ -80,7 +80,7 @@ function ProjectComponent() {
       </div>
 
       <div class="row">
-        <img src="{`${process.env.PUBLIC_URL}/assets/budgetapp.png`}" alt="Budget App Screen Shot" />
+        <img src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/budgetapp.png" alt="Budget App Screen Shot" />
       </div>
       <div class="row">
         <p>
@@ -110,7 +110,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="{`${process.env.PUBLIC_URL}/assets/ETscreenshot.png`}"
+          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/ETscreenshot.png"
           alt="Employee Tracker Screen Shot"
         />
       </div>
@@ -136,7 +136,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="{`${process.env.PUBLIC_URL}/assets/screenshot.gif`}"
+          src="https://github.com/Mindyratcliff/reactportfolio/blob/gh-pages/build/assets/screenshot.gif?raw=true"
           alt="Demo of Note Taker Application"
         />
       </div>
@@ -169,7 +169,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="{`${process.env.PUBLIC_URL}/assets/burgerScreenShot.jpg`}"
+          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/burgerScreenshot.jpg"
           alt="Burger App Screen Shot"
         />
       </div>
