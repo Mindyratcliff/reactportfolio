@@ -5,7 +5,7 @@ const About = () => (
   <div class="container">
     <h1 style={{color: "#8c52ff"}}>Get to know me</h1>
     <img
-      src="../../../assets/Mindy-2.jpg"
+      src="{`${process.env.PUBLIC_URL}/../../../assets/Mindy-2.jpg`}"
       id="headshot"
       alt="Website owner headshot"
     />

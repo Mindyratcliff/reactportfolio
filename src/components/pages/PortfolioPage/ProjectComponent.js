@@ -10,7 +10,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="../../../assets/dashboard-screenshot copy.png"
+          src="{`${process.env.PUBLIC_URL}/../../../assets/dashboard-screenshot copy.png`}"
           alt="Happy Trees dashboard"
         />
       </div>
@@ -45,7 +45,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="../../../assets/coronadatescreenshot.jpg"
+          src="{`${process.env.PUBLIC_URL}/../../../assets/coronadatescreenshot.jpg`}"
           alt="CoronaDate Screen shot"
         />
       </div>
@@ -80,7 +80,7 @@ function ProjectComponent() {
       </div>
 
       <div class="row">
-        <img src="../../../assets/budgetapp.png" alt="Budget App Screen Shot" />
+        <img src="{`${process.env.PUBLIC_URL}/../../../assets/budgetapp.png`}" alt="Budget App Screen Shot" />
       </div>
       <div class="row">
         <p>
@@ -110,7 +110,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="../../../assets/ETscreenshot.png"
+          src="{`${process.env.PUBLIC_URL}/../../../assets/ETscreenshot.png`}"
           alt="Employee Tracker Screen Shot"
         />
       </div>
@@ -136,7 +136,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="../../../assets/screenshot.gif"
+          src="{`${process.env.PUBLIC_URL}/../../../assets/screenshot.gif`}"
           alt="Demo of Note Taker Application"
         />
       </div>
@@ -169,7 +169,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="../../../assets/burgerScreenShot.jpg"
+          src="{`${process.env.PUBLIC_URL}/../../../assets/burgerScreenShot.jpg`}"
           alt="Burger App Screen Shot"
         />
       </div>
