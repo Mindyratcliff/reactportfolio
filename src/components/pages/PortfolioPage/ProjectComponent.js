@@ -169,7 +169,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src={`${process.env.PUBLIC_DIR}/assets/burgerScreenshot.jpg}`
+          src={`${process.env.PUBLIC_DIR}/assets/burgerScreenshot.jpg`}
           alt="Burger App Screen Shot"
         />
       </div>
