@@ -10,7 +10,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/dashboard-screenshot%20copy.png"
+          src={`${process.env.PUBLIC_DIR}/assets/dashboard-screenshot%20copy.png`}
           alt="Happy Trees dashboard"
         />
       </div>
@@ -45,7 +45,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/coronadatescreenshot.jpg"
+          src={`${process.env.PUBLIC_DIR}/assets/coronadatescreenshot.jpg`}
           alt="CoronaDate Screen shot"
         />
       </div>
@@ -80,7 +80,7 @@ function ProjectComponent() {
       </div>
 
       <div class="row">
-        <img src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/budgetapp.png" alt="Budget App Screen Shot" />
+        <img src={`${process.env.PUBLIC_DIR}/assets/budgetapp.png`} alt="Budget App Screen Shot" />
       </div>
       <div class="row">
         <p>
@@ -110,7 +110,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/ETscreenshot.png"
+          src={`${process.env.PUBLIC_DIR}/assets/ETscreenshot.png`}
           alt="Employee Tracker Screen Shot"
         />
       </div>
@@ -169,7 +169,7 @@ function ProjectComponent() {
 
       <div class="row">
         <img
-          src="https://raw.githubusercontent.com/Mindyratcliff/reactportfolio/gh-pages/build/assets/burgerScreenshot.jpg"
+          src={`${process.env.PUBLIC_DIR}/assets/burgerScreenshot.jpg}`
           alt="Burger App Screen Shot"
         />
       </div>
